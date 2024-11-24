@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keindahan Pegunungan</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #2c3e50, #34495e, #7f8c8d);
+            color: #ecf0f1;
+        }
+
+        /* Header styling */
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ecf0f1;
+        }
+
+        .header h1 span {
+            color: #f39c12;
+        }
+
+        /* Decorative circles */
+        .header .circles {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .header .circles div {
+            width: 12px;
+            height: 12px;
+            border: 2px solid #f39c12;
+            border-radius: 50%;
+        }
+
+        /* Table styling */
+        .table-container {
+            margin: 50px auto;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #7f8c8d;
+        }
+
+        th {
+            background: #f39c12;
+            color: #2c3e50;
+            font-size: 1.2rem;
+        }
+
+        tr:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        td {
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #bdc3c7;
+            font-size: 0.9rem;
+        }
+
+        /* Adding animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        body {
+            animation: fadeIn 1.5s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1>Keindahan <span>Pegunungan</span></h1>
+    </header>
+
+    <!-- Table -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Gunung</th>
+                    <th>Ketinggian (mdpl)</th>
+                    <th>Letak</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gunung Semeru</td>
+                    <td>3,676</td>
+                    <td>Jawa Timur</td>
+                </tr>
+                <tr>
+                    <td>Gunung Rinjani</td>
+                    <td>3,726</td>
+                    <td>Nusa Tenggara Barat</td>
+                </tr>
+                <tr>
+                    <td>Gunung Kerinci</td>
+                    <td>3,805</td>
+                    <td>Jambi</td>
+                </tr>
+                <tr>
+                    <td>Gunung Bromo</td>
+                    <td>2,329</td>
+                    <td>Jawa Timur</td>
+                </tr>
+                <tr>
+                    <td>Gunung Merapi</td>
+                    <td>2,930</td>
+                    <td>Yogyakarta</td>
+                </tr>
+                <tr>
+                    <td>Gunung Slamet</td>
+                    <td>3,428</td>
+                    <td>Jawa Tengah</td>
+                </tr>
+                <tr>
+                    <td>Gunung Gede</td>
+                    <td>2,958</td>
+                    <td>Jawa Barat</td>
+                </tr>
+                <tr>
+                    <td>Gunung Papandayan</td>
+                    <td>2,665</td>
+                    <td>Jawa Barat</td>
+                </tr>
+                <tr>
+                    <td>Gunung Lawu</td>
+                    <td>3,265</td>
+                    <td>Jawa Tengah</td>
+                </tr>
+                <tr>
+                    <td>Gunung Agung</td>
+                    <td>3,031</td>
+                    <td>Bali</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Keindahan Pegunungan Indonesia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!---
+bintang213/bintang213 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
